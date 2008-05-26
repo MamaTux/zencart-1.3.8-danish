@@ -13,208 +13,208 @@
 //define('CUSTOM_KEYWORDS', 'ecommerce, open source, shop, online shopping');
 // END: moved to meta_tags.php
 
-  define('FOOTER_TEXT_BODY', 'Copyright &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Powered by <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
+define('FOOTER_TEXT_BODY', 'Copyright &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Powered by <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
 
 // look in your $PATH_LOCALE/locale directory for available locales..
 // on RedHat try 'en_US'
 // on FreeBSD try 'en_US.ISO_8859-1'
 // on Windows try 'en', or 'English'
-  @setlocale(LC_TIME, 'en_US.ISO_8859-1');
-  define('DATE_FORMAT_SHORT', '%m/%d/%Y');  // this is used for strftime()
-  define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
-  define('DATE_FORMAT', 'm/d/Y'); // this is used for date()
-  define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
+@setlocale(LC_TIME, 'da_DK.ISO_8859-1');
+define('DATE_FORMAT_SHORT', '%d/%m-%Y');  // this is used for strftime()
+define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
+define('DATE_FORMAT', 'd/m-Y'); // this is used for date()
+define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
 
 ////
 // Return date in raw format
 // $date should be in format mm/dd/yyyy
 // raw date is in format YYYYMMDD, or DDMMYYYY
-  if (!function_exists('zen_date_raw')) {
-    function zen_date_raw($date, $reverse = false) {
-      if ($reverse) {
-        return substr($date, 3, 2) . substr($date, 0, 2) . substr($date, 6, 4);
-      } else {
-        return substr($date, 6, 4) . substr($date, 0, 2) . substr($date, 3, 2);
-      }
-    }
-  }
+if (!function_exists('zen_date_raw')) {
+	function zen_date_raw($date, $reverse = false) {
+		if ($reverse) {
+			return substr($date, 3, 2) . substr($date, 0, 2) . substr($date, 6, 4);
+		} else {
+			return substr($date, 6, 4) . substr($date, 0, 2) . substr($date, 3, 2);
+		}
+	}
+}
 
 // if USE_DEFAULT_LANGUAGE_CURRENCY is true, use the following currency, instead of the applications default currency (used when changing language)
-  define('LANGUAGE_CURRENCY', 'USD');
+define('LANGUAGE_CURRENCY', 'DKK');
 
 // Global entries for the <html> tag
-  define('HTML_PARAMS','dir="ltr" lang="en"');
+define('HTML_PARAMS','dir="ltr" lang="da"');
 
 // charset for web pages and emails
-  define('CHARSET', 'iso-8859-1');
+define('CHARSET', 'iso-8859-1');
 
 // footer text in includes/footer.php
-  define('FOOTER_TEXT_REQUESTS_SINCE', 'requests since');
+define('FOOTER_TEXT_REQUESTS_SINCE', 'forespørgsler siden');
 
 // Define the name of your Gift Certificate as Gift Voucher, Gift Certificate, Zen Cart Dollars, etc. here for use through out the shop
-  define('TEXT_GV_NAME','Gift Certificate');
-  define('TEXT_GV_NAMES','Gift Certificates');
+define('TEXT_GV_NAME','Gavekort');
+define('TEXT_GV_NAMES','Gavekort');
 
 // used for redeem code, redemption code, or redemption id
-  define('TEXT_GV_REDEEM','Redemption Code');
+define('TEXT_GV_REDEEM','Redemption Code');
 
 // used for redeem code sidebox
-  define('BOX_HEADING_GV_REDEEM', TEXT_GV_NAME);
-  define('BOX_GV_REDEEM_INFO', 'Redemption code: ');
+define('BOX_HEADING_GV_REDEEM', TEXT_GV_NAME);
+define('BOX_GV_REDEEM_INFO', 'Redemption code: ');
 
 // text for gender
-  define('MALE', 'Mr.');
-  define('FEMALE', 'Ms.');
-  define('MALE_ADDRESS', 'Mr.');
-  define('FEMALE_ADDRESS', 'Ms.');
+define('MALE', 'Hr.');
+define('FEMALE', 'Frk.');
+define('MALE_ADDRESS', 'Hr.');
+define('FEMALE_ADDRESS', 'Frk.');
 
 // text for date of birth example
-  define('DOB_FORMAT_STRING', 'mm/dd/yyyy');
+define('DOB_FORMAT_STRING', 'dd/mm-åååå');
 
 //text for sidebox heading links
-  define('BOX_HEADING_LINKS', '&nbsp;&nbsp;[more]');
+define('BOX_HEADING_LINKS', '&nbsp;&nbsp;[mere]');
 
 // categories box text in sideboxes/categories.php
-  define('BOX_HEADING_CATEGORIES', 'Categories');
+define('BOX_HEADING_CATEGORIES', 'Kategorier');
 
 // manufacturers box text in sideboxes/manufacturers.php
-  define('BOX_HEADING_MANUFACTURERS', 'Manufacturers');
+define('BOX_HEADING_MANUFACTURERS', 'Manufacturers');
 
 // whats_new box text in sideboxes/whats_new.php
-  define('BOX_HEADING_WHATS_NEW', 'New Products');
-  define('CATEGORIES_BOX_HEADING_WHATS_NEW', 'New Products ...');
+define('BOX_HEADING_WHATS_NEW', 'Nye Produkter');
+define('CATEGORIES_BOX_HEADING_WHATS_NEW', 'Nye Produkter ...');
 
-  define('BOX_HEADING_FEATURED_PRODUCTS', 'Featured');
-  define('CATEGORIES_BOX_HEADING_FEATURED_PRODUCTS', 'Featured Products ...');
-  define('TEXT_NO_FEATURED_PRODUCTS', 'More featured products will be added soon. Please check back later.');
+define('BOX_HEADING_FEATURED_PRODUCTS', 'Featured');
+define('CATEGORIES_BOX_HEADING_FEATURED_PRODUCTS', 'Featured Products ...');
+define('TEXT_NO_FEATURED_PRODUCTS', 'More featured products will be added soon. Please check back later.');
 
-  define('TEXT_NO_ALL_PRODUCTS', 'More products will be added soon. Please check back later.');
-  define('CATEGORIES_BOX_HEADING_PRODUCTS_ALL', 'All Products ...');
+define('TEXT_NO_ALL_PRODUCTS', 'Der vi blive tilføjet flere produkter snart. Kig venligst tilbage senere.');
+define('CATEGORIES_BOX_HEADING_PRODUCTS_ALL', 'Alle Produkter ...');
 
 // quick_find box text in sideboxes/quick_find.php
-  define('BOX_HEADING_SEARCH', 'Search');
-  define('BOX_SEARCH_ADVANCED_SEARCH', 'Advanced Search');
+define('BOX_HEADING_SEARCH', 'Søg');
+define('BOX_SEARCH_ADVANCED_SEARCH', 'Udvidet søgning');
 
 // specials box text in sideboxes/specials.php
-  define('BOX_HEADING_SPECIALS', 'Specials');
-  define('CATEGORIES_BOX_HEADING_SPECIALS','Specials ...');
+define('BOX_HEADING_SPECIALS', 'Specials');
+define('CATEGORIES_BOX_HEADING_SPECIALS','Specials ...');
 
 // reviews box text in sideboxes/reviews.php
-  define('BOX_HEADING_REVIEWS', 'Reviews');
-  define('BOX_REVIEWS_WRITE_REVIEW', 'Write a review on this product.');
-  define('BOX_REVIEWS_NO_REVIEWS', 'There are currently no product reviews.');
-  define('BOX_REVIEWS_TEXT_OF_5_STARS', '%s of 5 Stars!');
+define('BOX_HEADING_REVIEWS', 'Anmeldelser');
+define('BOX_REVIEWS_WRITE_REVIEW', 'Skriv en anmeldelse om dette produkt.');
+define('BOX_REVIEWS_NO_REVIEWS', 'Der er ingen anmeldelser lige nu.');
+define('BOX_REVIEWS_TEXT_OF_5_STARS', '%s ud af 5 stjerner!');
 
 // shopping_cart box text in sideboxes/shopping_cart.php
-  define('BOX_HEADING_SHOPPING_CART', 'Shopping Cart');
-  define('BOX_SHOPPING_CART_EMPTY', 'Your cart is empty.');
-  define('BOX_SHOPPING_CART_DIVIDER', 'ea.-&nbsp;');
+define('BOX_HEADING_SHOPPING_CART', 'Indkøbskurv');
+define('BOX_SHOPPING_CART_EMPTY', 'Din kurv er tom.');
+define('BOX_SHOPPING_CART_DIVIDER', 'ea.-&nbsp;');
 
 // order_history box text in sideboxes/order_history.php
-  define('BOX_HEADING_CUSTOMER_ORDERS', 'Quick Re-Order');
+define('BOX_HEADING_CUSTOMER_ORDERS', 'Hurtig genbestilling');
 
 // best_sellers box text in sideboxes/best_sellers.php
-  define('BOX_HEADING_BESTSELLERS', 'Bestsellers');
-  define('BOX_HEADING_BESTSELLERS_IN', 'Bestsellers in<br />&nbsp;&nbsp;');
+define('BOX_HEADING_BESTSELLERS', 'Bestsellers');
+define('BOX_HEADING_BESTSELLERS_IN', 'Bestsellers i<br />&nbsp;&nbsp;');
 
 // notifications box text in sideboxes/products_notifications.php
-  define('BOX_HEADING_NOTIFICATIONS', 'Notifications');
-  define('BOX_NOTIFICATIONS_NOTIFY', 'Notify me of updates to <strong>%s</strong>');
-  define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'Do not notify me of updates to <strong>%s</strong>');
+define('BOX_HEADING_NOTIFICATIONS', 'Adviseringer');
+define('BOX_NOTIFICATIONS_NOTIFY', 'Advisér mig om opdateringer af <strong>%s</strong>');
+define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'Advisér mig ikke om opdateringer af <strong>%s</strong>');
 
 // manufacturer box text
-  define('BOX_HEADING_MANUFACTURER_INFO', 'Manufacturer Info');
-  define('BOX_MANUFACTURER_INFO_HOMEPAGE', '%s Homepage');
-  define('BOX_MANUFACTURER_INFO_OTHER_PRODUCTS', 'Other products');
+define('BOX_HEADING_MANUFACTURER_INFO', 'Manufacturer Info');
+define('BOX_MANUFACTURER_INFO_HOMEPAGE', '%s hjemmeside');
+define('BOX_MANUFACTURER_INFO_OTHER_PRODUCTS', 'Andre produkter');
 
 // languages box text in sideboxes/languages.php
-  define('BOX_HEADING_LANGUAGES', 'Languages');
+define('BOX_HEADING_LANGUAGES', 'Sprog');
 
 // currencies box text in sideboxes/currencies.php
-  define('BOX_HEADING_CURRENCIES', 'Currencies');
+define('BOX_HEADING_CURRENCIES', 'Valutaer');
 
 // information box text in sideboxes/information.php
-  define('BOX_HEADING_INFORMATION', 'Information');
-  define('BOX_INFORMATION_PRIVACY', 'Privacy Notice');
-  define('BOX_INFORMATION_CONDITIONS', 'Conditions of Use');
-  define('BOX_INFORMATION_SHIPPING', 'Shipping &amp; Returns');
-  define('BOX_INFORMATION_CONTACT', 'Contact Us');
-  define('BOX_BBINDEX', 'Forum');
-  define('BOX_INFORMATION_UNSUBSCRIBE', 'Newsletter Unsubscribe');
+define('BOX_HEADING_INFORMATION', 'Information');
+define('BOX_INFORMATION_PRIVACY', 'Privacy Notice');
+define('BOX_INFORMATION_CONDITIONS', 'Conditions of Use');
+define('BOX_INFORMATION_SHIPPING', 'Shipping &amp; Returns');
+define('BOX_INFORMATION_CONTACT', 'Kontakt os');
+define('BOX_BBINDEX', 'Forum');
+define('BOX_INFORMATION_UNSUBSCRIBE', 'Frameld nyhedsbrev');
 
-  define('BOX_INFORMATION_SITE_MAP', 'Site Map');
+define('BOX_INFORMATION_SITE_MAP', 'Site Map');
 
 // information box text in sideboxes/more_information.php - were TUTORIAL_
-  define('BOX_HEADING_MORE_INFORMATION', 'More Information');
-  define('BOX_INFORMATION_PAGE_2', 'Page 2');
-  define('BOX_INFORMATION_PAGE_3', 'Page 3');
-  define('BOX_INFORMATION_PAGE_4', 'Page 4');
+define('BOX_HEADING_MORE_INFORMATION', 'Mere information');
+define('BOX_INFORMATION_PAGE_2', 'Page 2');
+define('BOX_INFORMATION_PAGE_3', 'Page 3');
+define('BOX_INFORMATION_PAGE_4', 'Page 4');
 
 // tell a friend box text in sideboxes/tell_a_friend.php
-  define('BOX_HEADING_TELL_A_FRIEND', 'Tell A Friend');
-  define('BOX_TELL_A_FRIEND_TEXT', 'Tell someone you know about this product.');
+define('BOX_HEADING_TELL_A_FRIEND', 'Tell A Friend');
+define('BOX_TELL_A_FRIEND_TEXT', 'Tell someone you know about this product.');
 
 // wishlist box text in includes/boxes/wishlist.php
-  define('BOX_HEADING_CUSTOMER_WISHLIST', 'My Wishlist');
-  define('BOX_WISHLIST_EMPTY', 'You have no items on your Wishlist');
-  define('IMAGE_BUTTON_ADD_WISHLIST', 'Add to Wishlist');
-  define('TEXT_WISHLIST_COUNT', 'Currently %s items are on your Wishlist.');
-  define('TEXT_DISPLAY_NUMBER_OF_WISHLIST', 'Displaying <strong>%d</strong> to <strong>%d</strong> (of <strong>%d</strong> items on your wishlist)');
+define('BOX_HEADING_CUSTOMER_WISHLIST', 'Min ønskeseddel');
+define('BOX_WISHLIST_EMPTY', 'Din ønskeseddel er tom');
+define('IMAGE_BUTTON_ADD_WISHLIST', 'Føj til ønskeseddel');
+define('TEXT_WISHLIST_COUNT', 'Der er %s ting på din ønskeseddel nu.');
+define('TEXT_DISPLAY_NUMBER_OF_WISHLIST', 'Viser <strong>%d</strong> til <strong>%d</strong> (ud af <strong>%d</strong> ting på din ønskeseddel)');
 
 //New billing address text
-  define('SET_AS_PRIMARY' , 'Set as Primary Address');
-  define('NEW_ADDRESS_TITLE', 'Billing Address');
+define('SET_AS_PRIMARY' , 'Sæt som primær adresse');
+define('NEW_ADDRESS_TITLE', 'Billing Address');
 
 // javascript messages
-  define('JS_ERROR', 'Errors have occurred during the processing of your form.\n\nPlease make the following corrections:\n\n');
+define('JS_ERROR', 'Errors have occurred during the processing of your form.\n\nPlease make the following corrections:\n\n');
 
-  define('JS_REVIEW_TEXT', '* Please add a few more words to your comments. The review needs to have at least ' . REVIEW_TEXT_MIN_LENGTH . ' characters.');
-  define('JS_REVIEW_RATING', '* Please choose a rating for this item.');
+define('JS_REVIEW_TEXT', '* Tilføj venligst et par ord mere til din kommentar. Anmeldelsen skal have mindst ' . REVIEW_TEXT_MIN_LENGTH . ' tegn.');
+define('JS_REVIEW_RATING', '* Vælg venligst en karakter til denne ting.');
 
-  define('JS_ERROR_NO_PAYMENT_MODULE_SELECTED', '* Please select a payment method for your order.');
+define('JS_ERROR_NO_PAYMENT_MODULE_SELECTED', '* Vælg venligst betalingsform til din ordre.');
 
-  define('JS_ERROR_SUBMITTED', 'This form has already been submitted. Please press OK and wait for this process to be completed.');
+define('JS_ERROR_SUBMITTED', 'Denne form er allerede blevet indsendt. Tryk venligst på OK og vent på at denne proces bliver gennemført.');
 
-  define('ERROR_NO_PAYMENT_MODULE_SELECTED', 'Please select a payment method for your order.');
-  define('ERROR_CONDITIONS_NOT_ACCEPTED', 'Please confirm the terms and conditions bound to this order by ticking the box below.');
-  define('ERROR_PRIVACY_STATEMENT_NOT_ACCEPTED', 'Please confirm the privacy statement by ticking the box below.');
+define('ERROR_NO_PAYMENT_MODULE_SELECTED', 'Venligst vælg en betalingsmetode til denne ordre.');
+define('ERROR_CONDITIONS_NOT_ACCEPTED', 'Please confirm the terms and conditions bound to this order by ticking the box below.');
+define('ERROR_PRIVACY_STATEMENT_NOT_ACCEPTED', 'Please confirm the privacy statement by ticking the box below.');
 
-  define('CATEGORY_COMPANY', 'Company Details');
-  define('CATEGORY_PERSONAL', 'Your Personal Details');
-  define('CATEGORY_ADDRESS', 'Your Address');
-  define('CATEGORY_CONTACT', 'Your Contact Information');
-  define('CATEGORY_OPTIONS', 'Options');
-  define('CATEGORY_PASSWORD', 'Your Password');
-  define('CATEGORY_LOGIN', 'Login');
-  define('PULL_DOWN_DEFAULT', 'Please Choose Your Country');
-  define('PLEASE_SELECT', 'Please select ...');
-  define('TYPE_BELOW', 'Type a choice below ...');
+define('CATEGORY_COMPANY', 'Company Details');
+define('CATEGORY_PERSONAL', 'Your Personal Details');
+define('CATEGORY_ADDRESS', 'Din adresse');
+define('CATEGORY_CONTACT', 'Dine kontakt oplysninger');
+define('CATEGORY_OPTIONS', 'Options');
+define('CATEGORY_PASSWORD', 'Dit kodeord');
+define('CATEGORY_LOGIN', 'Login');
+define('PULL_DOWN_DEFAULT', 'Venligst vælg dit land');
+define('PLEASE_SELECT', 'Venligst vælg ...');
+define('TYPE_BELOW', 'Skriv dit valg nedenfor ...');
 
-  define('ENTRY_COMPANY', 'Company Name:');
-  define('ENTRY_COMPANY_ERROR', 'Please enter a company name.');
-  define('ENTRY_COMPANY_TEXT', '');
-  define('ENTRY_GENDER', 'Salutation:');
-  define('ENTRY_GENDER_ERROR', 'Please choose a salutation.');
-  define('ENTRY_GENDER_TEXT', '*');
-  define('ENTRY_FIRST_NAME', 'First Name:');
-  define('ENTRY_FIRST_NAME_ERROR', 'Is your first name correct? Our system requires a minimum of ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' characters. Please try again.');
-  define('ENTRY_FIRST_NAME_TEXT', '*');
-  define('ENTRY_LAST_NAME', 'Last Name:');
-  define('ENTRY_LAST_NAME_ERROR', 'Is your last name correct? Our system requires a minimum of ' . ENTRY_LAST_NAME_MIN_LENGTH . ' characters. Please try again.');
-  define('ENTRY_LAST_NAME_TEXT', '*');
-  define('ENTRY_DATE_OF_BIRTH', 'Date of Birth:');
-  define('ENTRY_DATE_OF_BIRTH_ERROR', 'Is your birth date correct? Our system requires the date in this format: MM/DD/YYYY (eg 05/21/1970)');
-  define('ENTRY_DATE_OF_BIRTH_TEXT', '* (eg. 05/21/1970)');
-  define('ENTRY_EMAIL_ADDRESS', 'Email Address:');
-  define('ENTRY_EMAIL_ADDRESS_ERROR', 'Is your email address correct? It should contain at least ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' characters. Please try again.');
-  define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Sorry, my system does not understand your email address. Please try again.');
-  define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Our system already has a record of that email address - please try logging in with that email address. If you do not use that address any longer you can correct it in the My Account area.');
-  define('ENTRY_EMAIL_ADDRESS_TEXT', '*');
-  define('ENTRY_NICK', 'Forum Nick Name:');
-  define('ENTRY_NICK_TEXT', '*'); // note to display beside nickname input field
-  define('ENTRY_NICK_DUPLICATE_ERROR', 'That Nick Name is already being used. Please try another.');
-  define('ENTRY_NICK_LENGTH_ERROR', 'Please try again. Your Nick Name must contain at least ' . ENTRY_NICK_MIN_LENGTH . ' characters.');
-  define('ENTRY_STREET_ADDRESS', 'Street Address:');
+define('ENTRY_COMPANY', 'Firma navn:');
+define('ENTRY_COMPANY_ERROR', 'Venligst angiv et firma navn.');
+define('ENTRY_COMPANY_TEXT', '');
+define('ENTRY_GENDER', 'Titel:');
+define('ENTRY_GENDER_ERROR', 'Venligst vælg en titel.');
+define('ENTRY_GENDER_TEXT', '*');
+define('ENTRY_FIRST_NAME', 'Fornavn:');
+define('ENTRY_FIRST_NAME_ERROR', 'Er dit fornavn korrekt? Vores system kræver minimum ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' tegn. Prøv venligst igen.');
+define('ENTRY_FIRST_NAME_TEXT', '*');
+define('ENTRY_LAST_NAME', 'Efternavn:');
+define('ENTRY_LAST_NAME_ERROR', 'Er dit efternavn korrekt? Vores system kræver minimum ' . ENTRY_LAST_NAME_MIN_LENGTH . ' tegn. Prøv venligst igen.');
+define('ENTRY_LAST_NAME_TEXT', '*');
+define('ENTRY_DATE_OF_BIRTH', 'Fødselsdato:');
+define('ENTRY_DATE_OF_BIRTH_ERROR', 'Er din fødselsdato korrekt? Vores system kræver at datoen er i dette format: DD/MM/ÅÅÅÅ (f.eks. 21/05/1970)');
+define('ENTRY_DATE_OF_BIRTH_TEXT', '* (f.eks. 21/05/1970)');
+define('ENTRY_EMAIL_ADDRESS', 'Email adresse:');
+define('ENTRY_EMAIL_ADDRESS_ERROR', 'Er din email adresse korrekt? Den skal indeholde mindst ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' tegn. Prøv venligst igen.');
+define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Beklager, men systemet forstår ikke din email adresse. Prøv venligst igen.');
+define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Vores system har allerede en bruger med den email adresse - prøv venligst at log ind med den email adresse. Hvis du ikke bruger den adresse længere, kan du rette det under Min konto.');
+define('ENTRY_EMAIL_ADDRESS_TEXT', '*');
+define('ENTRY_NICK', 'Forum Brugernavn:');
+define('ENTRY_NICK_TEXT', '*'); // note to display beside nickname input field
+define('ENTRY_NICK_DUPLICATE_ERROR', 'Brugernavnet er allerede i brug. Prøv venligst med et andet.');
+define('ENTRY_NICK_LENGTH_ERROR', 'Prøv venligst igen. Din brugernavn skal indeholde mindst ' . ENTRY_NICK_MIN_LENGTH . ' tegn.');
+define('ENTRY_STREET_ADDRESS', 'Street Address:');
   define('ENTRY_STREET_ADDRESS_ERROR', 'Your Street Address must contain a minimum of ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' characters.');
   define('ENTRY_STREET_ADDRESS_TEXT', '*');
   define('ENTRY_SUBURB', 'Address Line 2:');
