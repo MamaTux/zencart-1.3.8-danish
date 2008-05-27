@@ -8,11 +8,11 @@
  */
 
 define('TEXT_PRODUCT_NOT_FOUND', 'Beklager, men produktet blev ikke fundet.');
-define('TEXT_CURRENT_REVIEWS', 'Nuværende anmeldelser:');
-define('TEXT_MORE_INFORMATION', 'For mere information. besøg venligst <a href="%s" target="_blank">produkthjemmesiden</a>.');
-define('TEXT_DATE_ADDED', 'Dette produkt blev tilføjet til vores katalog %s.');
-define('TEXT_DATE_AVAILABLE', 'Vi har dette produkt på lager igen %s.');
-define('TEXT_ALSO_PURCHASED_PRODUCTS', 'Kunder der købte dette produkt, købte også...');
+define('TEXT_CURRENT_REVIEWS', 'Nuv&aelig;rende anmeldelser:');
+define('TEXT_MORE_INFORMATION', 'For mere information. bes&oslash;g venligst <a href="%s" target="_blank">produkthjemmesiden</a>.');
+define('TEXT_DATE_ADDED', 'Dette produkt blev tilf&oslash;jet til vores katalog %s.');
+define('TEXT_DATE_AVAILABLE', 'Vi har dette produkt p&aring; lager igen %s.');
+define('TEXT_ALSO_PURCHASED_PRODUCTS', 'Kunder der k&oslash;bte dette produkt, k&oslash;bte ogs&aring;...');
 define('TEXT_PRODUCT_OPTIONS', 'V&aelig;lg venligst: ');
 define('TEXT_PRODUCT_MANUFACTURER', 'Lavet by: ');
 define('TEXT_PRODUCT_WEIGHT', 'Forsendelsesv&aelig;gt: ');
