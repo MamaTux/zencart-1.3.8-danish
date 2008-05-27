@@ -49,7 +49,7 @@ define('HTML_PARAMS','dir="ltr" lang="da"');
 define('CHARSET', 'iso-8859-1');
 
 // footer text in includes/footer.php
-define('FOOTER_TEXT_REQUESTS_SINCE', 'forespørgsler siden');
+define('FOOTER_TEXT_REQUESTS_SINCE', 'foresp&oslash;rgsler siden');
 
 // Define the name of your Gift Certificate as Gift Voucher, Gift Certificate, Zen Cart Dollars, etc. here for use through out the shop
 define('TEXT_GV_NAME','Gavekort');
@@ -69,7 +69,7 @@ define('MALE_ADDRESS', 'Hr.');
 define('FEMALE_ADDRESS', 'Frk.');
 
 // text for date of birth example
-define('DOB_FORMAT_STRING', 'dd/mm-åååå');
+define('DOB_FORMAT_STRING', 'dd/mm-&aring;&aring;&aring;&aring;');
 
 //text for sidebox heading links
 define('BOX_HEADING_LINKS', '&nbsp;&nbsp;[mere]');
@@ -88,12 +88,12 @@ define('BOX_HEADING_FEATURED_PRODUCTS', 'Featured');
 define('CATEGORIES_BOX_HEADING_FEATURED_PRODUCTS', 'Featured Products ...');
 define('TEXT_NO_FEATURED_PRODUCTS', 'More featured products will be added soon. Please check back later.');
 
-define('TEXT_NO_ALL_PRODUCTS', 'Der vi blive tilføjet flere produkter snart. Kig venligst tilbage senere.');
+define('TEXT_NO_ALL_PRODUCTS', 'Der vi blive tilf&oslash;jet flere produkter snart. Kig venligst tilbage senere.');
 define('CATEGORIES_BOX_HEADING_PRODUCTS_ALL', 'Alle Produkter ...');
 
 // quick_find box text in sideboxes/quick_find.php
-define('BOX_HEADING_SEARCH', 'Søg');
-define('BOX_SEARCH_ADVANCED_SEARCH', 'Udvidet søgning');
+define('BOX_HEADING_SEARCH', 'S&oslash;g');
+define('BOX_SEARCH_ADVANCED_SEARCH', 'Udvidet s&oslash;gning');
 
 // specials box text in sideboxes/specials.php
 define('BOX_HEADING_SPECIALS', 'Specials');
@@ -106,7 +106,7 @@ define('BOX_REVIEWS_NO_REVIEWS', 'Der er ingen anmeldelser lige nu.');
 define('BOX_REVIEWS_TEXT_OF_5_STARS', '%s ud af 5 stjerner!');
 
 // shopping_cart box text in sideboxes/shopping_cart.php
-define('BOX_HEADING_SHOPPING_CART', 'Indkøbskurv');
+define('BOX_HEADING_SHOPPING_CART', 'Indk&oslash;bskurv');
 define('BOX_SHOPPING_CART_EMPTY', 'Din kurv er tom.');
 define('BOX_SHOPPING_CART_DIVIDER', 'ea.-&nbsp;');
 
@@ -155,27 +155,27 @@ define('BOX_HEADING_TELL_A_FRIEND', 'Tell A Friend');
 define('BOX_TELL_A_FRIEND_TEXT', 'Tell someone you know about this product.');
 
 // wishlist box text in includes/boxes/wishlist.php
-define('BOX_HEADING_CUSTOMER_WISHLIST', 'Min ønskeseddel');
-define('BOX_WISHLIST_EMPTY', 'Din ønskeseddel er tom');
-define('IMAGE_BUTTON_ADD_WISHLIST', 'Føj til ønskeseddel');
-define('TEXT_WISHLIST_COUNT', 'Der er %s ting på din ønskeseddel nu.');
-define('TEXT_DISPLAY_NUMBER_OF_WISHLIST', 'Viser <strong>%d</strong> til <strong>%d</strong> (ud af <strong>%d</strong> ting på din ønskeseddel)');
+define('BOX_HEADING_CUSTOMER_WISHLIST', 'Min &oslash;nskeseddel');
+define('BOX_WISHLIST_EMPTY', 'Din &oslash;nskeseddel er tom');
+define('IMAGE_BUTTON_ADD_WISHLIST', 'F&oslash;j til &oslash;nskeseddel');
+define('TEXT_WISHLIST_COUNT', 'Der er %s ting p&aring; din &oslash;nskeseddel nu.');
+define('TEXT_DISPLAY_NUMBER_OF_WISHLIST', 'Viser <strong>%d</strong> til <strong>%d</strong> (ud af <strong>%d</strong> ting p&aring; din &oslash;nskeseddel)');
 
 //New billing address text
-define('SET_AS_PRIMARY' , 'Sæt som primær adresse');
+define('SET_AS_PRIMARY' , 'S&aelig;t som prim&aelig;r adresse');
 define('NEW_ADDRESS_TITLE', 'Billing Address');
 
 // javascript messages
 define('JS_ERROR', 'Errors have occurred during the processing of your form.\n\nPlease make the following corrections:\n\n');
 
-define('JS_REVIEW_TEXT', '* Tilføj venligst et par ord mere til din kommentar. Anmeldelsen skal have mindst ' . REVIEW_TEXT_MIN_LENGTH . ' tegn.');
-define('JS_REVIEW_RATING', '* Vælg venligst en karakter til denne ting.');
+define('JS_REVIEW_TEXT', '* Tilf&oslash;j venligst et par ord mere til din kommentar. Anmeldelsen skal have mindst ' . REVIEW_TEXT_MIN_LENGTH . ' tegn.');
+define('JS_REVIEW_RATING', '* V&aelig;lg venligst en karakter til denne ting.');
 
-define('JS_ERROR_NO_PAYMENT_MODULE_SELECTED', '* Vælg venligst betalingsform til din ordre.');
+define('JS_ERROR_NO_PAYMENT_MODULE_SELECTED', '* V&aelig;lg venligst betalingsform til din ordre.');
 
-define('JS_ERROR_SUBMITTED', 'Denne form er allerede blevet indsendt. Tryk venligst på OK og vent på at denne proces bliver gennemført.');
+define('JS_ERROR_SUBMITTED', 'Denne form er allerede blevet indsendt. Tryk venligst p&aring; OK og vent p&aring; at denne proces bliver gennemf&oslash;rt.');
 
-define('ERROR_NO_PAYMENT_MODULE_SELECTED', 'Venligst vælg en betalingsmetode til denne ordre.');
+define('ERROR_NO_PAYMENT_MODULE_SELECTED', 'Venligst v&aelig;lg en betalingsmetode til denne ordre.');
 define('ERROR_CONDITIONS_NOT_ACCEPTED', 'Please confirm the terms and conditions bound to this order by ticking the box below.');
 define('ERROR_PRIVACY_STATEMENT_NOT_ACCEPTED', 'Please confirm the privacy statement by ticking the box below.');
 
@@ -186,34 +186,34 @@ define('CATEGORY_CONTACT', 'Dine kontakt oplysninger');
 define('CATEGORY_OPTIONS', 'Options');
 define('CATEGORY_PASSWORD', 'Dit kodeord');
 define('CATEGORY_LOGIN', 'Login');
-define('PULL_DOWN_DEFAULT', 'Venligst vælg dit land');
-define('PLEASE_SELECT', 'Venligst vælg ...');
+define('PULL_DOWN_DEFAULT', 'Venligst v&aelig;lg dit land');
+define('PLEASE_SELECT', 'Venligst v&aelig;lg ...');
 define('TYPE_BELOW', 'Skriv dit valg nedenfor ...');
 
 define('ENTRY_COMPANY', 'Firma navn:');
 define('ENTRY_COMPANY_ERROR', 'Venligst angiv et firma navn.');
 define('ENTRY_COMPANY_TEXT', '');
 define('ENTRY_GENDER', 'Titel:');
-define('ENTRY_GENDER_ERROR', 'Venligst vælg en titel.');
+define('ENTRY_GENDER_ERROR', 'Venligst v&aelig;lg en titel.');
 define('ENTRY_GENDER_TEXT', '*');
 define('ENTRY_FIRST_NAME', 'Fornavn:');
-define('ENTRY_FIRST_NAME_ERROR', 'Er dit fornavn korrekt? Vores system kræver minimum ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' tegn. Prøv venligst igen.');
+define('ENTRY_FIRST_NAME_ERROR', 'Er dit fornavn korrekt? Vores system kr&aelig;ver minimum ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' tegn. Pr&oslash;v venligst igen.');
 define('ENTRY_FIRST_NAME_TEXT', '*');
 define('ENTRY_LAST_NAME', 'Efternavn:');
-define('ENTRY_LAST_NAME_ERROR', 'Er dit efternavn korrekt? Vores system kræver minimum ' . ENTRY_LAST_NAME_MIN_LENGTH . ' tegn. Prøv venligst igen.');
+define('ENTRY_LAST_NAME_ERROR', 'Er dit efternavn korrekt? Vores system kr&aelig;ver minimum ' . ENTRY_LAST_NAME_MIN_LENGTH . ' tegn. Pr&oslash;v venligst igen.');
 define('ENTRY_LAST_NAME_TEXT', '*');
-define('ENTRY_DATE_OF_BIRTH', 'Fødselsdato:');
-define('ENTRY_DATE_OF_BIRTH_ERROR', 'Er din fødselsdato korrekt? Vores system kræver at datoen er i dette format: DD/MM/ÅÅÅÅ (f.eks. 21/05/1970)');
+define('ENTRY_DATE_OF_BIRTH', 'F&oslash;dselsdato:');
+define('ENTRY_DATE_OF_BIRTH_ERROR', 'Er din f&oslash;dselsdato korrekt? Vores system kr&aelig;ver at datoen er i dette format: DD/MM/&aring;&aring;&aring;&aring; (f.eks. 21/05/1970)');
 define('ENTRY_DATE_OF_BIRTH_TEXT', '* (f.eks. 21/05/1970)');
 define('ENTRY_EMAIL_ADDRESS', 'Email adresse:');
-define('ENTRY_EMAIL_ADDRESS_ERROR', 'Er din email adresse korrekt? Den skal indeholde mindst ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' tegn. Prøv venligst igen.');
-define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Beklager, men systemet forstår ikke din email adresse. Prøv venligst igen.');
-define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Vores system har allerede en bruger med den email adresse - prøv venligst at log ind med den email adresse. Hvis du ikke bruger den adresse længere, kan du rette det under Min konto.');
+define('ENTRY_EMAIL_ADDRESS_ERROR', 'Er din email adresse korrekt? Den skal indeholde mindst ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' tegn. Pr&oslash;v venligst igen.');
+define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Beklager, men systemet forst&aring;r ikke din email adresse. Pr&oslash;v venligst igen.');
+define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Vores system har allerede en bruger med den email adresse - pr&oslash;v venligst at log ind med den email adresse. Hvis du ikke bruger den adresse l&aelig;ngere, kan du rette det under Min konto.');
 define('ENTRY_EMAIL_ADDRESS_TEXT', '*');
 define('ENTRY_NICK', 'Forum Brugernavn:');
 define('ENTRY_NICK_TEXT', '*'); // note to display beside nickname input field
-define('ENTRY_NICK_DUPLICATE_ERROR', 'Brugernavnet er allerede i brug. Prøv venligst med et andet.');
-define('ENTRY_NICK_LENGTH_ERROR', 'Prøv venligst igen. Din brugernavn skal indeholde mindst ' . ENTRY_NICK_MIN_LENGTH . ' tegn.');
+define('ENTRY_NICK_DUPLICATE_ERROR', 'Brugernavnet er allerede i brug. Pr&oslash;v venligst med et andet.');
+define('ENTRY_NICK_LENGTH_ERROR', 'Pr&oslash;v venligst igen. Din brugernavn skal indeholde mindst ' . ENTRY_NICK_MIN_LENGTH . ' tegn.');
 define('ENTRY_STREET_ADDRESS', 'Street Address:');
 define('ENTRY_STREET_ADDRESS_ERROR', 'Din adresse skal indeholde mindst ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' tegn.');
 define('ENTRY_STREET_ADDRESS_TEXT', '*');
@@ -232,9 +232,9 @@ define('ENTRY_STATE', 'State/Province:');
 define('ENTRY_STATE_ERROR', 'Your State must contain a minimum of ' . ENTRY_STATE_MIN_LENGTH . ' characters.');
 define('ENTRY_STATE_ERROR_SELECT', 'Please select a state from the States pull down menu.');
 define('ENTRY_STATE_TEXT', '*');
-define('JS_STATE_SELECT', '-- Vælg venligst --');
+define('JS_STATE_SELECT', '-- V&aelig;lg venligst --');
 define('ENTRY_COUNTRY', 'Land:');
-define('ENTRY_COUNTRY_ERROR', 'Du skal vælge et land fra rullemenuen med lande.');
+define('ENTRY_COUNTRY_ERROR', 'Du skal v&aelig;lge et land fra rullemenuen med lande.');
 define('ENTRY_COUNTRY_TEXT', '*');
 define('ENTRY_TELEPHONE_NUMBER', 'Telefon:');
 define('ENTRY_TELEPHONE_NUMBER_ERROR', 'Dit telefon nr skal indeholde mindst ' . ENTRY_TELEPHONE_MIN_LENGTH . ' tegn.');
@@ -253,7 +253,7 @@ define('ENTRY_PASSWORD_ERROR_NOT_MATCHING', 'Kodeordene matcher ikke.');
 define('ENTRY_PASSWORD_TEXT', '* (mindst ' . ENTRY_PASSWORD_MIN_LENGTH . ' tegn)');
 define('ENTRY_PASSWORD_CONFIRMATION', 'Gentag kodeord:');
 define('ENTRY_PASSWORD_CONFIRMATION_TEXT', '*');
-define('ENTRY_PASSWORD_CURRENT', 'Nuværende kodeord:');
+define('ENTRY_PASSWORD_CURRENT', 'Nuv&aelig;rende kodeord:');
 define('ENTRY_PASSWORD_CURRENT_TEXT', '*');
 define('ENTRY_PASSWORD_CURRENT_ERROR', 'Dit kodeord skal indeholde mindst ' . ENTRY_PASSWORD_MIN_LENGTH . ' tegn.');
 define('ENTRY_PASSWORD_NEW', 'Nyt kodeord:');
@@ -271,27 +271,27 @@ define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS', 'Viser <strong>%d</strong> til <strong
 define('TEXT_DISPLAY_NUMBER_OF_ORDERS', 'Viser <strong>%d</strong> til <strong>%d</strong> (ud af <strong>%d</strong> ordrer)');
 define('TEXT_DISPLAY_NUMBER_OF_REVIEWS', 'Viser <strong>%d</strong> til <strong>%d</strong> (ud af <strong>%d</strong> anmeldelser)');
 define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_NEW', 'Viser <strong>%d</strong> til <strong>%d</strong> (ud af <strong>%d</strong> nye produkter)');
-//XXX Mangler fuld oversættelse
+//XXX Mangler fuld overs&aelig;ttelse
 define('TEXT_DISPLAY_NUMBER_OF_SPECIALS', 'Viser <strong>%d</strong> til <strong>%d</strong> (ud af<strong>%d</strong> specials)');
-//XXX Mangler fuld oversættelse
+//XXX Mangler fuld overs&aelig;ttelse
 define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_FEATURED_PRODUCTS', 'Viser <strong>%d</strong> til <strong>%d</strong> (ud af <strong>%d</strong> featured products)');
 define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_ALL', 'Viser <strong>%d</strong> til <strong>%d</strong> (ud af <strong>%d</strong> produkter)');
 
-define('PREVNEXT_TITLE_FIRST_PAGE', 'Første side');
+define('PREVNEXT_TITLE_FIRST_PAGE', 'F&oslash;rste side');
 define('PREVNEXT_TITLE_PREVIOUS_PAGE', 'Forrige side');
-define('PREVNEXT_TITLE_NEXT_PAGE', 'Næste side');
+define('PREVNEXT_TITLE_NEXT_PAGE', 'N&aelig;ste side');
 define('PREVNEXT_TITLE_LAST_PAGE', 'Sidste side');
 define('PREVNEXT_TITLE_PAGE_NO', 'Side %d');
-define('PREVNEXT_TITLE_PREV_SET_OF_NO_PAGE', 'Forrige sæt af %d sider');
-define('PREVNEXT_TITLE_NEXT_SET_OF_NO_PAGE', 'Næste sæt af %d sider');
-define('PREVNEXT_BUTTON_FIRST', '&lt;&lt;FØRSTE');
+define('PREVNEXT_TITLE_PREV_SET_OF_NO_PAGE', 'Forrige s&aelig;t af %d sider');
+define('PREVNEXT_TITLE_NEXT_SET_OF_NO_PAGE', 'N&aelig;ste s&aelig;t af %d sider');
+define('PREVNEXT_BUTTON_FIRST', '&lt;&lt;F&oslash;RSTE');
 define('PREVNEXT_BUTTON_PREV', '[&lt;&lt;&nbsp;Forrige]');
-define('PREVNEXT_BUTTON_NEXT', '[Næste&nbsp;&gt;&gt;]');
+define('PREVNEXT_BUTTON_NEXT', '[N&aelig;ste&nbsp;&gt;&gt;]');
 define('PREVNEXT_BUTTON_LAST', 'SIDSTE&gt;&gt;');
 
 define('TEXT_BASE_PRICE','Fra: ');
 
-define('TEXT_CLICK_TO_ENLARGE', 'større billede');
+define('TEXT_CLICK_TO_ENLARGE', 'st&oslash;rre billede');
 
 define('TEXT_SORT_PRODUCTS', 'Sortér produkter ');
 define('TEXT_DESCENDINGLY', 'faldende');
@@ -301,30 +301,30 @@ define('TEXT_BY', ' by ');
 define('TEXT_REVIEW_BY', 'af %s');
 define('TEXT_REVIEW_WORD_COUNT', '%s ord');
 define('TEXT_REVIEW_RATING', 'Karakter: %s [%s]');
-define('TEXT_REVIEW_DATE_ADDED', 'Tilføjet d.: %s');
-define('TEXT_NO_REVIEWS', 'Der er ikke nogen anmeldelser på nuværende tidspunkt.');
+define('TEXT_REVIEW_DATE_ADDED', 'Tilf&oslash;jet d.: %s');
+define('TEXT_NO_REVIEWS', 'Der er ikke nogen anmeldelser p&aring; nuv&aelig;rende tidspunkt.');
 
-define('TEXT_NO_NEW_PRODUCTS', 'Der vil blive tilføjet flere nye produkter snart. Kig venligst tilbage senere.');
+define('TEXT_NO_NEW_PRODUCTS', 'Der vil blive tilf&oslash;jet flere nye produkter snart. Kig venligst tilbage senere.');
 
 define('TEXT_UNKNOWN_TAX_RATE', 'Sales Tax');
 
 define('TEXT_REQUIRED', '<span class="errorText">Required</span>');
 
 define('WARNING_INSTALL_DIRECTORY_EXISTS', 'Advarsel: Installations mappen eksisterer her: %s. Fjern venligst denne mappe af hensyn til sikkerheden.');
-define('WARNING_CONFIG_FILE_WRITEABLE', 'Advarsel: Det er muligt for mig at skrive til opsætningsfilen: %s. Dette er en potentiel sikkerheds risiko - venligst sæt de korrekte bruger rettigheder på denne fil (skrivebeskyttet, CHMOD 644 eller 444 er typisk). Du skal muligvis bruge din hosting udbyders kontrolpanel / filhåndtering for at ændre rettighederne. Kontakt din hosting udbyder for assistance. <a href="http://tutorials.zen-cart.com/index.php?article=90" target="_blank">Se denne OSS</a>');
-define('ERROR_FILE_NOT_REMOVEABLE', 'Fejl: Kunne ikke slette den ønskede fil. Du skal muligvis bruge FTP for at slette filen, pga. begrænsning i indstilling af rettigheder på din server.');
-define('WARNING_SESSION_DIRECTORY_NON_EXISTENT', 'Advarsel: Session mappen eksisterer ikke: ' . zen_session_save_path() . '. Sessions vil ikke virke før denne mappe er oprettet.');
-define('WARNING_SESSION_DIRECTORY_NOT_WRITEABLE', 'Advarsel: Jeg kan ikke skrive til sessions mappen: ' . zen_session_save_path() . '. Sessions vil ikke virke før de rigtige bruger rettigheder bliver sat.');
-define('WARNING_SESSION_AUTO_START', 'Advarsel: session.auto_start er slået til - slå venligst denne PHP feature fra i php.ini og genstart din webserver.');
-define('WARNING_DOWNLOAD_DIRECTORY_NON_EXISTENT', 'Advarsel: Mappen til produkter der kan downloades eksisterer ikke: ' . DIR_FS_DOWNLOAD . '. Produkter der kan downloades vil ikke virke før denne mappe er oprettet.');
-define('WARNING_SQL_CACHE_DIRECTORY_NON_EXISTENT', 'Advarsel: Mappen til SQL cache eksisterer ikke: ' . DIR_FS_SQL_CACHE . '. Cache af SQL vil ikke virke før denne mappe er oprettet.');
-define('WARNING_SQL_CACHE_DIRECTORY_NOT_WRITEABLE', 'Advarsel: Jeg kan ikke skrive til SQL cache mappen: ' . DIR_FS_SQL_CACHE . '. Cache af SQL vil ikke virke før de rigtige bruger rettigheder bliver sat.');
-define('WARNING_DATABASE_VERSION_OUT_OF_DATE', 'Din database ser ud til at skulle patches til et højere niveau. Kig under Admin->Tools->Server Information for at gennemse patch niveauer.');
+define('WARNING_CONFIG_FILE_WRITEABLE', 'Advarsel: Det er muligt for mig at skrive til ops&aelig;tningsfilen: %s. Dette er en potentiel sikkerheds risiko - venligst s&aelig;t de korrekte bruger rettigheder p&aring; denne fil (skrivebeskyttet, CHMOD 644 eller 444 er typisk). Du skal muligvis bruge din hosting udbyders kontrolpanel / filh&aring;ndtering for at &aelig;ndre rettighederne. Kontakt din hosting udbyder for assistance. <a href="http://tutorials.zen-cart.com/index.php?article=90" target="_blank">Se denne OSS</a>');
+define('ERROR_FILE_NOT_REMOVEABLE', 'Fejl: Kunne ikke slette den &oslash;nskede fil. Du skal muligvis bruge FTP for at slette filen, pga. begr&aelig;nsning i indstilling af rettigheder p&aring; din server.');
+define('WARNING_SESSION_DIRECTORY_NON_EXISTENT', 'Advarsel: Session mappen eksisterer ikke: ' . zen_session_save_path() . '. Sessions vil ikke virke f&oslash;r denne mappe er oprettet.');
+define('WARNING_SESSION_DIRECTORY_NOT_WRITEABLE', 'Advarsel: Jeg kan ikke skrive til sessions mappen: ' . zen_session_save_path() . '. Sessions vil ikke virke f&oslash;r de rigtige bruger rettigheder bliver sat.');
+define('WARNING_SESSION_AUTO_START', 'Advarsel: session.auto_start er sl&aring;et til - sl&aring; venligst denne PHP feature fra i php.ini og genstart din webserver.');
+define('WARNING_DOWNLOAD_DIRECTORY_NON_EXISTENT', 'Advarsel: Mappen til produkter der kan downloades eksisterer ikke: ' . DIR_FS_DOWNLOAD . '. Produkter der kan downloades vil ikke virke f&oslash;r denne mappe er oprettet.');
+define('WARNING_SQL_CACHE_DIRECTORY_NON_EXISTENT', 'Advarsel: Mappen til SQL cache eksisterer ikke: ' . DIR_FS_SQL_CACHE . '. Cache af SQL vil ikke virke f&oslash;r denne mappe er oprettet.');
+define('WARNING_SQL_CACHE_DIRECTORY_NOT_WRITEABLE', 'Advarsel: Jeg kan ikke skrive til SQL cache mappen: ' . DIR_FS_SQL_CACHE . '. Cache af SQL vil ikke virke f&oslash;r de rigtige bruger rettigheder bliver sat.');
+define('WARNING_DATABASE_VERSION_OUT_OF_DATE', 'Din database ser ud til at skulle patches til et h&oslash;jere niveau. Kig under Admin->Tools->Server Information for at gennemse patch niveauer.');
 define('WARNING_COULD_NOT_LOCATE_LANG_FILE', 'Advarsel: Kunne ikke lokalisere sprog fil: ');
 
-define('TEXT_CCVAL_ERROR_INVALID_DATE', 'Udløbsdatoen du indtastede for kreditkortet er ugyldig. Venligst tjek datoen og prøv igen.');
-define('TEXT_CCVAL_ERROR_INVALID_NUMBER', 'Kortnummeret du indtastede er ugyldigt. Venligst tjek nummeret og prøv igen.');
-define('TEXT_CCVAL_ERROR_UNKNOWN_CARD', 'Kortnummeret der starter med %s var ikke indtastet korrekt, eller også tager vi ikke imod denne korttype. Prøv venligst igen eller brug et andet kort.');
+define('TEXT_CCVAL_ERROR_INVALID_DATE', 'Udl&oslash;bsdatoen du indtastede for kreditkortet er ugyldig. Venligst tjek datoen og pr&oslash;v igen.');
+define('TEXT_CCVAL_ERROR_INVALID_NUMBER', 'Kortnummeret du indtastede er ugyldigt. Venligst tjek nummeret og pr&oslash;v igen.');
+define('TEXT_CCVAL_ERROR_UNKNOWN_CARD', 'Kortnummeret der starter med %s var ikke indtastet korrekt, eller ogs&aring; tager vi ikke imod denne korttype. Pr&oslash;v venligst igen eller brug et andet kort.');
 
 define('BOX_INFORMATION_DISCOUNT_COUPONS', 'Rabat kuponer');
 define('BOX_INFORMATION_GV', TEXT_GV_NAME . ' OSS');
@@ -358,7 +358,7 @@ define('TABLE_HEADING_CREDIT_PAYMENT', 'Credits Available');
 define('TEXT_INVALID_REDEEM_COUPON', 'Forkert kupon kode');
 define('TEXT_INVALID_REDEEM_COUPON_MINIMUM', 'You must spend at least %s to redeem this coupon');
 define('TEXT_INVALID_STARTDATE_COUPON', 'This coupon is not available yet');
-define('TEXT_INVALID_FINISHDATE_COUPON', 'Denne kupon er udløbet');
+define('TEXT_INVALID_FINISHDATE_COUPON', 'Denne kupon er udl&oslash;bet');
 define('TEXT_INVALID_USES_COUPON', 'Denne kupon kunne kun bruges ');
 define('TIMES', ' gange.');
 define('TIME', ' gang.');
@@ -382,7 +382,7 @@ define('HEADING_ADDRESS_INFORMATION','Adresse Information');
 
 // cart contents
 define('PRODUCTS_ORDER_QTY_TEXT_IN_CART','Antal i kurven: ');
-  define('PRODUCTS_ORDER_QTY_TEXT','Tilføj til kurven: ');
+  define('PRODUCTS_ORDER_QTY_TEXT','Tilf&oslash;j til kurven: ');
 
 // success messages for added to cart when display cart is off
 // set to blank for no messages
@@ -421,16 +421,16 @@ define('BOX_HEADING_BANNER_BOX_ALL','Sponsors');
 define('TEXT_BANNER_BOX_ALL','Please Visit Our Sponsors ...');
 
 // boxes defines
-define('PULL_DOWN_ALL','Vælg venligst');
+define('PULL_DOWN_ALL','V&aelig;lg venligst');
   define('PULL_DOWN_MANUFACTURERS','- Nulstil -');
 // shipping estimator
-define('PULL_DOWN_SHIPPING_ESTIMATOR_SELECT', 'Vælg venligst');
+define('PULL_DOWN_SHIPPING_ESTIMATOR_SELECT', 'V&aelig;lg venligst');
 
 // general Sort By
 define('TEXT_INFO_SORT_BY','Sortér efter: ');
 
 // close window image popups
-define('TEXT_CLOSE_WINDOW',' - Klik på billedet for at lukke');
+define('TEXT_CLOSE_WINDOW',' - Klik p&aring; billedet for at lukke');
 // close popups
 define('TEXT_CURRENT_CLOSE_WINDOW','[ Luk vinduet ]');
 
@@ -441,7 +441,7 @@ define('SUCCESS_FILE_SAVED_SUCCESSFULLY', 'Success:  file saved successfully.');
 define('ERROR_FILE_NOT_SAVED', 'Fejl:  Filen blev ikke gemt.');
   define('ERROR_DESTINATION_NOT_WRITEABLE', 'Error:  destination not writeable.');
   define('ERROR_DESTINATION_DOES_NOT_EXIST', 'Error: destination does not exist.');
-define('ERROR_FILE_TOO_BIG', 'Advarsel: Filen var for stor til at blive uploadet!<br/>Der kan bestilles men kontakt venligst sitet for at få hjælp til at uploade filen');
+define('ERROR_FILE_TOO_BIG', 'Advarsel: Filen var for stor til at blive uploadet!<br/>Der kan bestilles men kontakt venligst sitet for at f&aring; hj&aelig;lp til at uploade filen');
 // End iii added
 
 define('TEXT_BEFORE_DOWN_FOR_MAINTENANCE', 'NOTICE: This website is scheduled to be down for maintenance on: ');
@@ -470,9 +470,9 @@ define('TEXT_PRODUCTS_MIX_OFF_SHOPPING_CART','<br />*You can not mix the options
 define('TEXT_PRODUCTS_MIX_ON_SHOPPING_CART','*Mixed Option Values is ON<br />');
 
 define('ERROR_MAXIMUM_QTY','The quantity added to your cart has been adjusted because of a restriction on maximum you are allowed. See this item: ');
-define('ERROR_CORRECTIONS_HEADING','Ret venligst følgende: <br />');
+define('ERROR_CORRECTIONS_HEADING','Ret venligst f&oslash;lgende: <br />');
 define('ERROR_QUANTITY_ADJUSTED', 'The quantity added to your cart has been adjusted. The item you wanted is not available in fractional quantities. The quantity of item: ');
-define('ERROR_QUANTITY_CHANGED_FROM', ', er blevet ændret fra: ');
+define('ERROR_QUANTITY_CHANGED_FROM', ', er blevet &aelig;ndret fra: ');
 define('ERROR_QUANTITY_CHANGED_TO', ' til ');
 
 // Downloads Controller
@@ -520,7 +520,7 @@ define('TEXT_LOGIN_FOR_PRICE_PRICE_SHOWROOM', ''); // blank for prices or enter 
 define('TEXT_LOGIN_FOR_PRICE_BUTTON_REPLACE_SHOWROOM','Show Room Only');
 
 // authorization pending
-define('TEXT_AUTHORIZATION_PENDING_PRICE', 'Prisen er ikke tilgængelig');
+define('TEXT_AUTHORIZATION_PENDING_PRICE', 'Prisen er ikke tilg&aelig;ngelig');
 define('TEXT_AUTHORIZATION_PENDING_BUTTON_REPLACE', 'APPROVAL PENDING');
 define('TEXT_LOGIN_TO_SHOP_BUTTON_REPLACE','Login to Shop');
 
@@ -540,7 +540,7 @@ define('TEXT_ATTRIBUTES_QTY_PRICES_ONETIME_HELP', 'Option Quantity Discounts One
 
 // textarea attribute input fields
 define('TEXT_MAXIMUM_CHARACTERS_ALLOWED',' maksimum antal tegn tilladt');
-define('TEXT_REMAINING','tilbageværende');
+define('TEXT_REMAINING','tilbagev&aelig;rende');
 
 // Shipping Estimator
 define('CART_SHIPPING_OPTIONS', 'Estimate Shipping Costs');
@@ -557,17 +557,17 @@ define('CART_SHIPPING_METHOD_ADDRESS','Adresse:');
 define('CART_OT','Total Cost Estimate:');
 define('CART_OT_SHOW','true'); // set to false if you don't want order totals
 define('CART_ITEMS','Items in Cart: ');
-define('CART_SELECT','Vælg');
+define('CART_SELECT','V&aelig;lg');
 define('ERROR_CART_UPDATE', '<strong>Venligst opdatér din ordre.</strong> ');
 define('IMAGE_BUTTON_UPDATE_CART', 'Update');
 define('EMPTY_CART_TEXT_NO_QUOTE', 'Whoops! Your session has expired ... Please update your shopping cart for Shipping Quote ...');
 define('CART_SHIPPING_QUOTE_CRITERIA', 'Shipping quotes are based on the address information you selected:');
 
 // multiple product add to cart
-define('TEXT_PRODUCT_LISTING_MULTIPLE_ADD_TO_CART', 'Tilføj: ');
-define('TEXT_PRODUCT_ALL_LISTING_MULTIPLE_ADD_TO_CART', 'Tilføj: ');
-define('TEXT_PRODUCT_FEATURED_LISTING_MULTIPLE_ADD_TO_CART', 'Tilføj: ');
-define('TEXT_PRODUCT_NEW_LISTING_MULTIPLE_ADD_TO_CART', 'Tilføj: ');
+define('TEXT_PRODUCT_LISTING_MULTIPLE_ADD_TO_CART', 'Tilf&oslash;j: ');
+define('TEXT_PRODUCT_ALL_LISTING_MULTIPLE_ADD_TO_CART', 'Tilf&oslash;j: ');
+define('TEXT_PRODUCT_FEATURED_LISTING_MULTIPLE_ADD_TO_CART', 'Tilf&oslash;j: ');
+define('TEXT_PRODUCT_NEW_LISTING_MULTIPLE_ADD_TO_CART', 'Tilf&oslash;j: ');
 //moved SUBMIT_BUTTON_ADD_PRODUCTS_TO_CART to button_names.php as BUTTON_ADD_PRODUCTS_TO_CART_ALT
 
 // discount qty table
@@ -581,8 +581,8 @@ define('TEXT_HEADER_DISCOUNTS_OFF', 'Qty Discounts Unavailable ...');
 define('PULL_DOWN_ALL_RESET','- RESET - ');
 define('TEXT_INFO_SORT_BY_PRODUCTS_NAME', 'Produkt navn');
 define('TEXT_INFO_SORT_BY_PRODUCTS_NAME_DESC', 'Produkt navn - faldende');
-define('TEXT_INFO_SORT_BY_PRODUCTS_PRICE', 'Pris - lav til høj');
-define('TEXT_INFO_SORT_BY_PRODUCTS_PRICE_DESC', 'Pris - høj til lav');
+define('TEXT_INFO_SORT_BY_PRODUCTS_PRICE', 'Pris - lav til h&oslash;j');
+define('TEXT_INFO_SORT_BY_PRODUCTS_PRICE_DESC', 'Pris - h&oslash;j til lav');
 define('TEXT_INFO_SORT_BY_PRODUCTS_MODEL', 'Model');
 define('TEXT_INFO_SORT_BY_PRODUCTS_DATE_DESC', 'Date Added - New to Old');
 define('TEXT_INFO_SORT_BY_PRODUCTS_DATE', 'Date Added - Old to New');
@@ -594,8 +594,8 @@ define('TABLE_HEADING_DOWNLOAD_COUNT', 'Remaining');
 define('HEADING_DOWNLOAD', 'To download your files click the download button and choose "Save to Disk" from the popup menu.');
 define('TABLE_HEADING_DOWNLOAD_FILENAME','Filnavn');
 define('TABLE_HEADING_PRODUCT_NAME','Item Name');
-define('TABLE_HEADING_BYTE_SIZE','Filstørrelse');
-define('TEXT_DOWNLOADS_UNLIMITED', 'Ubegrænset');
+define('TABLE_HEADING_BYTE_SIZE','Filst&oslash;rrelse');
+define('TEXT_DOWNLOADS_UNLIMITED', 'Ubegr&aelig;nset');
 define('TEXT_DOWNLOADS_UNLIMITED_COUNT', '--- *** ---');
 
 // misc

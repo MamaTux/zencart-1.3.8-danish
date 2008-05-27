@@ -8,14 +8,14 @@
  */
 
 // header text in includes/header.php
-  define('HEADER_TITLE_CREATE_ACCOUNT', 'Create Account');
-  define('HEADER_TITLE_MY_ACCOUNT', 'My Account');
-  define('HEADER_TITLE_CART_CONTENTS', 'Shopping Cart');
+  define('HEADER_TITLE_CREATE_ACCOUNT', 'Opret konto');
+  define('HEADER_TITLE_MY_ACCOUNT', 'Min konto');
+  define('HEADER_TITLE_CART_CONTENTS', 'Indk&slash;bskurv');
   define('HEADER_TITLE_CHECKOUT', 'Checkout');
   define('HEADER_TITLE_TOP', 'Top');
-  define('HEADER_TITLE_CATALOG', 'Home');
-  define('HEADER_TITLE_LOGOFF', 'Log Out');
-  define('HEADER_TITLE_LOGIN', 'Log In');
+  define('HEADER_TITLE_CATALOG', 'Foraide');
+  define('HEADER_TITLE_LOGOFF', 'Log ud');
+  define('HEADER_TITLE_LOGIN', 'Log ind');
 
 // added defines for header alt and text
   define('HEADER_ALT_TEXT', 'Powered by Zen Cart :: The Art of E-Commerce');
@@ -25,7 +25,7 @@
   define('HEADER_LOGO_IMAGE', 'logo.gif');
 
 // header Search Button/Box Search Button
-  define('HEADER_SEARCH_BUTTON','Search');
-  define('HEADER_SEARCH_DEFAULT_TEXT', 'Enter search keywords here');
+  define('HEADER_SEARCH_BUTTON','S&oslash;g');
+  define('HEADER_SEARCH_DEFAULT_TEXT', 'Angiv s&oslash;geord her');
 
 ?>
