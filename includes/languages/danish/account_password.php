@@ -20,13 +20,13 @@
 // $Id: account_password.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE_1', 'My Account');
-define('NAVBAR_TITLE_2', 'Change Password');
+define('NAVBAR_TITLE_1', 'Min konto');
+define('NAVBAR_TITLE_2', 'Skift kodeord');
 
-define('HEADING_TITLE', 'My Password');
+define('HEADING_TITLE', 'Mit kodeord');
 
-define('MY_PASSWORD_TITLE', 'My Password');
+define('MY_PASSWORD_TITLE', 'Mit kodeord');
 
-define('SUCCESS_PASSWORD_UPDATED', 'Your password has been successfully updated.');
+define('SUCCESS_PASSWORD_UPDATED', 'Dit kodeord blev succesfyldt opdateret.');
 define('ERROR_CURRENT_PASSWORD_NOT_MATCHING', 'Your Current Password did not match the password in our records. Please try again.');
 ?>

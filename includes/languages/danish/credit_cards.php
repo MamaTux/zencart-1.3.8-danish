@@ -23,7 +23,7 @@ echo TEXT_ACCEPTED_CREDIT_CARDS . zen_get_cc_enabled();
 
 */
 
-define('TEXT_ACCEPTED_CREDIT_CARDS', '<strong>We accept:</strong> ');
+define('TEXT_ACCEPTED_CREDIT_CARDS', '<strong>Vi modtager:</strong> ');
 
 // cc enabled text
 define('TEXT_CC_ENABLED_VISA','Visa');

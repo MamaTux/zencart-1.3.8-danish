@@ -7,21 +7,21 @@
  * @version $Id: advanced_search.php 3253 2006-03-25 17:26:14Z birdbrain $
  */
 
-  define('NAVBAR_TITLE_1', 'Advanced Search');
-  define('NAVBAR_TITLE_2', 'Search Results');
+  define('NAVBAR_TITLE_1', 'Udvidet søgning');
+  define('NAVBAR_TITLE_2', 'Søge resultater');
 
-  define('HEADING_TITLE_1', 'Advanced Search');
-  define('HEADING_TITLE_2', 'Products meeting the search criteria');
+  define('HEADING_TITLE_1', 'Udvidet søgning');
+  define('HEADING_TITLE_2', 'Produkter der mathcer søgekriterierne');
 
-  define('HEADING_SEARCH_CRITERIA', 'Choose Your Search Terms');
+  define('HEADING_SEARCH_CRITERIA', 'Vælg dine søgekriterier');
 
   define('TEXT_SEARCH_IN_DESCRIPTION', 'Search In Product Descriptions');
-  define('ENTRY_CATEGORIES', 'Limit to Category:');
-  define('ENTRY_INCLUDE_SUBCATEGORIES', 'Include Subcategories');
+  define('ENTRY_CATEGORIES', 'Begærns til kategori:');
+  define('ENTRY_INCLUDE_SUBCATEGORIES', 'Inkludér underkategorier');
   define('ENTRY_MANUFACTURERS', 'Limit to Manufacturer');
 define('ENTRY_PRICE_RANGE', 'Search by Price Range');
-  define('ENTRY_PRICE_FROM', 'Price From:');
-  define('ENTRY_PRICE_TO', 'Price To:');
+  define('ENTRY_PRICE_FROM', 'Pris fra:');
+  define('ENTRY_PRICE_TO', 'Pris til:');
 define('ENTRY_DATE_RANGE', 'Search by Date Added');
   define('ENTRY_DATE_FROM', 'Date From:');
   define('ENTRY_DATE_TO', 'Date To:');

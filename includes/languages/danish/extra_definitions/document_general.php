@@ -20,5 +20,5 @@
 // $Id: document_general.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-DEFINE('BOX_HEADING_DOCUMENT_CATEGORIES', 'Documents');
+DEFINE('BOX_HEADING_DOCUMENT_CATEGORIES', 'Dokumenter');
 ?>

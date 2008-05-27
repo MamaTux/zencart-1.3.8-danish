@@ -8,10 +8,10 @@
  */
 
 // office use only
-  define('OFFICE_FROM','<strong>From:</strong>');
+  define('OFFICE_FROM','<strong>Fra:</strong>');
   define('OFFICE_EMAIL','<strong>Email:</strong>');
 
-  define('OFFICE_SENT_TO','<strong>Sent To:</strong>');
+  define('OFFICE_SENT_TO','<strong>Sendt til:</strong>');
   define('OFFICE_EMAIL_TO','<strong>To Email:</strong>');
 
   define('OFFICE_USE','<strong>Office Use Only:</strong>');

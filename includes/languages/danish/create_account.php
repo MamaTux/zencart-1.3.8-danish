@@ -7,14 +7,14 @@
  * @version $Id: create_account.php 5745 2007-02-01 00:52:06Z ajeh $
  */
 
-define('NAVBAR_TITLE', 'Create an Account');
+define('NAVBAR_TITLE', 'Opret en konto');
 
-define('HEADING_TITLE', 'My Account Information');
+define('HEADING_TITLE', 'Min konto information');
 
 define('TEXT_ORIGIN_LOGIN', '<strong class="note">NOTE:</strong> If you already have an account with us, please login at the <a href="%s">login page</a>.');
 
 // greeting salutation
-define('EMAIL_SUBJECT', 'Welcome to ' . STORE_NAME);
+define('EMAIL_SUBJECT', 'Velkommen til ' . STORE_NAME);
 define('EMAIL_GREET_MR', 'Dear Mr. %s,' . "\n\n");
 define('EMAIL_GREET_MS', 'Dear Ms. %s,' . "\n\n");
 define('EMAIL_GREET_NONE', 'Dear %s' . "\n\n");

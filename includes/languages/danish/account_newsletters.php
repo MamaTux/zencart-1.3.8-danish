@@ -7,7 +7,7 @@
  * @version $Id: account_newsletters.php 3159 2006-03-11 01:35:04Z drbyte $
  */
 
-define('NAVBAR_TITLE_1', 'My Account');
+define('NAVBAR_TITLE_1', 'Min konto');
 define('NAVBAR_TITLE_2', 'Newsletter Subscriptions');
 
 define('HEADING_TITLE', 'Newsletter Subscriptions');

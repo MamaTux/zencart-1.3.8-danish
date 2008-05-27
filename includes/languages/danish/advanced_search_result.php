@@ -20,17 +20,17 @@
 // $Id: advanced_search_result.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE_1', 'Advanced Search');
-define('NAVBAR_TITLE_2', 'Search Results');
+define('NAVBAR_TITLE_1', 'Udvidet søgning');
+define('NAVBAR_TITLE_2', 'Søgeresultater');
 
 //define('HEADING_TITLE_1', 'Advanced Search');
-define('HEADING_TITLE', 'Advanced Search');
+define('HEADING_TITLE', 'Udvidet søgning');
 
-define('HEADING_SEARCH_CRITERIA', 'Search Criteria');
+define('HEADING_SEARCH_CRITERIA', 'Søgekriterier');
 
 define('TEXT_SEARCH_IN_DESCRIPTION', 'Search In Product Descriptions');
-define('ENTRY_CATEGORIES', 'Categories:');
-define('ENTRY_INCLUDE_SUBCATEGORIES', 'Include Subcategories');
+define('ENTRY_CATEGORIES', 'Kategorier:');
+define('ENTRY_INCLUDE_SUBCATEGORIES', 'Inkludér underkategorier');
 define('ENTRY_MANUFACTURERS', 'Manufacturers:');
 define('ENTRY_PRICE_FROM', 'Price From:');
 define('ENTRY_PRICE_TO', 'Price To:');

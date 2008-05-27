@@ -8,24 +8,24 @@
  */
 
 define('NAVBAR_TITLE_1', 'Checkout - Step 1');
-define('NAVBAR_TITLE_2', 'Payment Method - Step 2');
+define('NAVBAR_TITLE_2', 'Betalingsmetode - Step 2');
 
-define('HEADING_TITLE', 'Step 2 of 3 - Payment Information');
+define('HEADING_TITLE', 'Step 2 of 3 - Betalingsinfo');
 
 define('TABLE_HEADING_BILLING_ADDRESS', 'Billing Address');
 define('TEXT_SELECTED_BILLING_DESTINATION', 'Your billing address is shown to the left. The billing address should match the address on your credit card statement. You can change the billing address by clicking the <em>Change Address</em> button.');
 define('TITLE_BILLING_ADDRESS', 'Billing Address:');
 
-define('TABLE_HEADING_PAYMENT_METHOD', 'Payment Method');
-define('TEXT_SELECT_PAYMENT_METHOD', 'Please select a payment method for this order.');
-define('TITLE_PLEASE_SELECT', 'Please Select');
+define('TABLE_HEADING_PAYMENT_METHOD', 'Betalingsmetode');
+define('TEXT_SELECT_PAYMENT_METHOD', 'Vælg venligst en betalingsmetode til denne ordre.');
+define('TITLE_PLEASE_SELECT', 'Vælg venligst');
 define('TEXT_ENTER_PAYMENT_INFORMATION', '');
 define('TABLE_HEADING_COMMENTS', 'Special Instructions or Order Comments');
 
-define('TITLE_NO_PAYMENT_OPTIONS_AVAILABLE', 'Not Available At This Time');
+define('TITLE_NO_PAYMENT_OPTIONS_AVAILABLE', 'Ikke tilgængelig på nuværende tidspunkt');
 define('TEXT_NO_PAYMENT_OPTIONS_AVAILABLE','<span class="alert">Sorry, we are not accepting payments from your region at this time.</span><br />Please contact us for alternate arrangements.');
 
-define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>Continue to Step 3</strong>');
+define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>Fortsæt til Step 3</strong>');
 define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '- to confirm your order.');
 
 define('TABLE_HEADING_CONDITIONS', '<span class="termsconditions">Terms and Conditions</span>');

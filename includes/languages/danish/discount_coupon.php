@@ -20,14 +20,14 @@
 // $Id: discount_coupon.php 4591 2006-09-23 04:25:15Z ajeh $
 //
 
-define('NAVBAR_TITLE', 'Discount Coupon');
-define('HEADING_TITLE', 'Discount Coupon');
+define('NAVBAR_TITLE', 'Rabat kupon');
+define('HEADING_TITLE', 'Rabat kupon');
 
 define('TEXT_INFORMATION', '');
 define('TEXT_COUPON_FAILED', '<span class="alert important">%s</span> does not appear to be a valid Coupon Redemption Code. Please try typing it in again.');
 
 define('HEADING_COUPON_HELP', 'Discount Coupon Help');
-define('TEXT_CLOSE_WINDOW', 'Close Window [x]');
+define('TEXT_CLOSE_WINDOW', 'Luk vindue [x]');
 define('TEXT_COUPON_HELP_HEADER', '<p class="bold">The Discount Coupon Redemption Code you have entered is for ');
 define('TEXT_COUPON_HELP_NAME', '\'%s\'. </p>');
 define('TEXT_COUPON_HELP_FIXED', '');
