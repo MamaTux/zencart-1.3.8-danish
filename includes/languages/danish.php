@@ -19,7 +19,7 @@ define('FOOTER_TEXT_BODY', 'Copyright &copy; ' . date('Y') . ' <a href="' . zen_
 // on RedHat try 'en_US'
 // on FreeBSD try 'en_US.ISO_8859-1'
 // on Windows try 'en', or 'English'
-@setlocale(LC_TIME, 'da_DK.ISO_8859-1');
+@setlocale(LC_TIME, 'da', 'da_DK', 'da_DK.ISO_8859-1', 'da_DK.ISO_8859-15', 'da_DK.UTF-8');
 define('DATE_FORMAT_SHORT', '%d/%m-%Y');  // this is used for strftime()
 define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
 define('DATE_FORMAT', 'd/m-Y'); // this is used for date()
