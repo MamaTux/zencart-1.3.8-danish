@@ -30,17 +30,17 @@ define('HEADING_SEARCH_CRITERIA', 'S&oslash;gekriterier');
 
 define('TEXT_SEARCH_IN_DESCRIPTION', 'S&oslash;g i produktbeskrivelser');
 define('ENTRY_CATEGORIES', 'Kategorier:');
-define('ENTRY_INCLUDE_SUBCATEGORIES', 'Inkludér underkategorier');
-define('ENTRY_MANUFACTURERS', 'Manufacturers:');
+define('ENTRY_INCLUDE_SUBCATEGORIES', 'Inklud&eacute;r underkategorier');
+define('ENTRY_MANUFACTURERS', 'Leverand&oslash;rer:');
 define('ENTRY_PRICE_FROM', 'Price From:');
 define('ENTRY_PRICE_TO', 'Price To:');
 define('ENTRY_DATE_FROM', 'Date From:');
 define('ENTRY_DATE_TO', 'Date To:');
 
-define('TEXT_SEARCH_HELP_LINK', 'Search Help [?]');
+define('TEXT_SEARCH_HELP_LINK', 'Hj&aelig;lp til s&oslash;gning [?]');
 
 define('TEXT_ALL_CATEGORIES', 'All Categories');
-define('TEXT_ALL_MANUFACTURERS', 'All Manufacturers');
+define('TEXT_ALL_MANUFACTURERS', 'Alle leverand&oslash;rer');
 
 define('HEADING_SEARCH_HELP', 'Search Help');
 define('TEXT_SEARCH_HELP', 'Keywords may be separated by AND and/or OR statements for greater control of the search results.<br /><br />For example, Microsoft AND mouse would generate a result set that contain both words. However, for mouse OR keyboard, the result set returned would contain both or either words.<br /><br />Exact matches can be searched for by enclosing keywords in double-quotes.<br /><br />For example, "notebook computer" would generate a result set which match the exact string.<br /><br />Brackets can be used for further control on the result set.<br /><br />For example, Microsoft and (keyboard or mouse or "visual basic").');
@@ -55,9 +55,9 @@ define('TABLE_HEADING_PRICE', 'Price');
 define('TABLE_HEADING_WEIGHT', 'Weight');
 define('TABLE_HEADING_BUY_NOW', 'Buy Now');
 
-define('TEXT_NO_PRODUCTS', 'There is no product that matches the search criteria.');
+define('TEXT_NO_PRODUCTS', 'Der er ingen produkter der matcher s&oslash;gekriterierne.');
 
-define('ERROR_AT_LEAST_ONE_INPUT', 'At least one of the fields in the search form must be entered.');
+define('ERROR_AT_LEAST_ONE_INPUT', 'Mindst et felt i s&oslash;geformularen skal v&aelig;re udfyldt.');
 define('ERROR_INVALID_FROM_DATE', 'Invalid From Date.');
 define('ERROR_INVALID_TO_DATE', 'Invalid To Date.');
 define('ERROR_TO_DATE_LESS_THAN_FROM_DATE', 'To Date must be greater than or equal to From Date.');
