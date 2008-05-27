@@ -7,8 +7,8 @@
  * @version $Id: login.php 6352 2007-05-20 21:05:01Z drbyte $
  */
 
-define('NAVBAR_TITLE', 'Login');
-define('HEADING_TITLE', 'Welcome, Please Sign In');
+define('NAVBAR_TITLE', 'Log ind');
+define('HEADING_TITLE', 'Velkommen, venligst log ind');
 
 define('HEADING_NEW_CUSTOMER', 'New? Please Provide Your Billing Information');
 define('HEADING_NEW_CUSTOMER_SPLIT', 'New Customers');
