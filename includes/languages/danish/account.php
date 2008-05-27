@@ -21,9 +21,9 @@ define('TABLE_HEADING_TOTAL', 'Total');
 define('TABLE_HEADING_VIEW', 'Vis');
 
 define('MY_ACCOUNT_TITLE', 'Min konto');
-define('MY_ACCOUNT_INFORMATION', 'Vis eller ændre min konto information.');
-define('MY_ACCOUNT_ADDRESS_BOOK', 'Vis eller ændre entries i min adresse bog.');
-define('MY_ACCOUNT_PASSWORD', 'Skift mit kodeord på kontoen.');
+define('MY_ACCOUNT_INFORMATION', 'Vis eller &aelig;ndre min konto information.');
+define('MY_ACCOUNT_ADDRESS_BOOK', 'Vis eller &aelig;ndre entries i min adresse bog.');
+define('MY_ACCOUNT_PASSWORD', 'Skift mit kodeord p&aring; kontoen.');
 
 define('MY_ORDERS_TITLE', 'Mine ordrer');
 define('MY_ORDERS_VIEW', 'Vis mine ordrer.');

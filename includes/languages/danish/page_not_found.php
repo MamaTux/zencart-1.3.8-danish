@@ -7,18 +7,18 @@
  * @version $Id: page_not_found.php 3159 2006-03-11 01:35:04Z drbyte $
  */
 
-define('NAVBAR_TITLE', 'Page Not Found');
-define('HEADING_TITLE', 'Page Not Found');
+define('NAVBAR_TITLE', 'Siden blev ikke fundet');
+define('HEADING_TITLE', 'Siden blev ikke fundet');
 define('TEXT_INFORMATION', '');
-define('PAGE_ACCOUNT', 'My Account');
-define('PAGE_ACCOUNT_EDIT', 'Account Information');
-define('PAGE_ADDRESS_BOOK', 'Address Book');
-define('PAGE_ACCOUNT_HISTORY', 'Order History');
+define('PAGE_ACCOUNT', 'Min konto');
+define('PAGE_ACCOUNT_EDIT', 'Konto information');
+define('PAGE_ADDRESS_BOOK', 'Adresse bog');
+define('PAGE_ACCOUNT_HISTORY', 'Ordre historik');
 define('PAGE_ACCOUNT_NOTIFICATIONS', 'Newsletter Subscriptions');
-define('PAGE_SHOPPING_CART', 'Shopping Cart');
+define('PAGE_SHOPPING_CART', 'Indk&oslash;bskurv');
 define('PAGE_CHECKOUT_SHIPPING', 'Checkout');
-define('PAGE_ADVANCED_SEARCH', 'Advanced Search');
-define('PAGE_PRODUCTS_NEW', 'New Products');
+define('PAGE_ADVANCED_SEARCH', 'Udvidet s&oslash;gning');
+define('PAGE_PRODUCTS_NEW', 'Nye produkter');
 define('PAGE_SPECIALS', 'Specials');
-define('PAGE_REVIEWS', 'Reviews');
+define('PAGE_REVIEWS', 'Anmeldelser');
 ?>

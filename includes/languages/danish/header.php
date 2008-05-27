@@ -10,10 +10,10 @@
 // header text in includes/header.php
   define('HEADER_TITLE_CREATE_ACCOUNT', 'Opret konto');
   define('HEADER_TITLE_MY_ACCOUNT', 'Min konto');
-  define('HEADER_TITLE_CART_CONTENTS', 'Indk&slash;bskurv');
+  define('HEADER_TITLE_CART_CONTENTS', 'Indk&oslash;bskurv');
   define('HEADER_TITLE_CHECKOUT', 'Checkout');
   define('HEADER_TITLE_TOP', 'Top');
-  define('HEADER_TITLE_CATALOG', 'Foraide');
+  define('HEADER_TITLE_CATALOG', 'Forside');
   define('HEADER_TITLE_LOGOFF', 'Log ud');
   define('HEADER_TITLE_LOGIN', 'Log ind');
 
