@@ -214,10 +214,10 @@ define('ENTRY_NICK', 'Forum Brugernavn:');
 define('ENTRY_NICK_TEXT', '*'); // note to display beside nickname input field
 define('ENTRY_NICK_DUPLICATE_ERROR', 'Brugernavnet er allerede i brug. Pr&oslash;v venligst med et andet.');
 define('ENTRY_NICK_LENGTH_ERROR', 'Pr&oslash;v venligst igen. Din brugernavn skal indeholde mindst ' . ENTRY_NICK_MIN_LENGTH . ' tegn.');
-define('ENTRY_STREET_ADDRESS', 'Street Address:');
+define('ENTRY_STREET_ADDRESS', 'Adresse:');
 define('ENTRY_STREET_ADDRESS_ERROR', 'Din adresse skal indeholde mindst ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' tegn.');
 define('ENTRY_STREET_ADDRESS_TEXT', '*');
-define('ENTRY_SUBURB', 'Adresse linie 2:');
+define('ENTRY_SUBURB', 'Adresse (forts.):');
 define('ENTRY_SUBURB_ERROR', '');
 define('ENTRY_SUBURB_TEXT', '');
 define('ENTRY_POST_CODE', 'Postnr:');
