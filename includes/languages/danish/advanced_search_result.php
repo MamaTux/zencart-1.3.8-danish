@@ -32,34 +32,34 @@ define('TEXT_SEARCH_IN_DESCRIPTION', 'S&oslash;g i produktbeskrivelser');
 define('ENTRY_CATEGORIES', 'Kategorier:');
 define('ENTRY_INCLUDE_SUBCATEGORIES', 'Inklud&eacute;r underkategorier');
 define('ENTRY_MANUFACTURERS', 'Leverand&oslash;rer:');
-define('ENTRY_PRICE_FROM', 'Price From:');
-define('ENTRY_PRICE_TO', 'Price To:');
-define('ENTRY_DATE_FROM', 'Date From:');
-define('ENTRY_DATE_TO', 'Date To:');
+define('ENTRY_PRICE_FROM', 'Pris fra:');
+define('ENTRY_PRICE_TO', 'Pris til:');
+define('ENTRY_DATE_FROM', 'Fra dato:');
+define('ENTRY_DATE_TO', 'Til dato:');
 
 define('TEXT_SEARCH_HELP_LINK', 'Hj&aelig;lp til s&oslash;gning [?]');
 
-define('TEXT_ALL_CATEGORIES', 'All Categories');
+define('TEXT_ALL_CATEGORIES', 'Alle kategorier');
 define('TEXT_ALL_MANUFACTURERS', 'Alle leverand&oslash;rer');
 
-define('HEADING_SEARCH_HELP', 'Search Help');
+define('HEADING_SEARCH_HELP', 'Hj&aelig;lp til s&oslash;gning');
 define('TEXT_SEARCH_HELP', 'Keywords may be separated by AND and/or OR statements for greater control of the search results.<br /><br />For example, Microsoft AND mouse would generate a result set that contain both words. However, for mouse OR keyboard, the result set returned would contain both or either words.<br /><br />Exact matches can be searched for by enclosing keywords in double-quotes.<br /><br />For example, "notebook computer" would generate a result set which match the exact string.<br /><br />Brackets can be used for further control on the result set.<br /><br />For example, Microsoft and (keyboard or mouse or "visual basic").');
-define('TEXT_CLOSE_WINDOW', 'Close Window [x]');
+define('TEXT_CLOSE_WINDOW', 'Luk vindue [x]');
 
 define('TABLE_HEADING_IMAGE', '');
 define('TABLE_HEADING_MODEL', 'Model');
-define('TABLE_HEADING_PRODUCTS', 'Product Name');
-define('TABLE_HEADING_MANUFACTURER', 'Manufacturer');
-define('TABLE_HEADING_QUANTITY', 'Quantity');
-define('TABLE_HEADING_PRICE', 'Price');
-define('TABLE_HEADING_WEIGHT', 'Weight');
-define('TABLE_HEADING_BUY_NOW', 'Buy Now');
+define('TABLE_HEADING_PRODUCTS', 'Produktnavn');
+define('TABLE_HEADING_MANUFACTURER', 'Leverand&oslash;r');
+define('TABLE_HEADING_QUANTITY', 'Antal');
+define('TABLE_HEADING_PRICE', 'Pris');
+define('TABLE_HEADING_WEIGHT', 'V&aelig;gt');
+define('TABLE_HEADING_BUY_NOW', 'K&oslash;b nu');
 
 define('TEXT_NO_PRODUCTS', 'Der er ingen produkter der matcher s&oslash;gekriterierne.');
 
 define('ERROR_AT_LEAST_ONE_INPUT', 'Mindst et felt i s&oslash;geformularen skal v&aelig;re udfyldt.');
-define('ERROR_INVALID_FROM_DATE', 'Invalid From Date.');
-define('ERROR_INVALID_TO_DATE', 'Invalid To Date.');
+define('ERROR_INVALID_FROM_DATE', 'Ugyldig fra dato.');
+define('ERROR_INVALID_TO_DATE', 'Ugyldig til dato.');
 define('ERROR_TO_DATE_LESS_THAN_FROM_DATE', 'To Date must be greater than or equal to From Date.');
 define('ERROR_PRICE_FROM_MUST_BE_NUM', 'Price From must be a number.');
 define('ERROR_PRICE_TO_MUST_BE_NUM', 'Price To must be a number.');
