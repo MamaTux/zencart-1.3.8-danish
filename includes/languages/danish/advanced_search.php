@@ -7,16 +7,16 @@
  * @version $Id: advanced_search.php 3253 2006-03-25 17:26:14Z birdbrain $
  */
 
-  define('NAVBAR_TITLE_1', 'Udvidet søgning');
-  define('NAVBAR_TITLE_2', 'Søge resultater');
+  define('NAVBAR_TITLE_1', 'Udvidet s&oslash;gning');
+  define('NAVBAR_TITLE_2', 'S&oslash;ge resultater');
 
-  define('HEADING_TITLE_1', 'Udvidet søgning');
-  define('HEADING_TITLE_2', 'Produkter der mathcer søgekriterierne');
+  define('HEADING_TITLE_1', 'Udvidet s&oslash;gning');
+  define('HEADING_TITLE_2', 'Produkter der matcher s&oslash;gekriterierne');
 
-  define('HEADING_SEARCH_CRITERIA', 'Vælg dine søgekriterier');
+  define('HEADING_SEARCH_CRITERIA', 'Vælg dine s&oslash;gekriterier');
 
-  define('TEXT_SEARCH_IN_DESCRIPTION', 'Search In Product Descriptions');
-  define('ENTRY_CATEGORIES', 'Begærns til kategori:');
+  define('TEXT_SEARCH_IN_DESCRIPTION', 'S&oslash;g i produktbeskrivelser');
+  define('ENTRY_CATEGORIES', 'Begr&aelig;ns til kategori:');
   define('ENTRY_INCLUDE_SUBCATEGORIES', 'Inkludér underkategorier');
   define('ENTRY_MANUFACTURERS', 'Limit to Manufacturer');
 define('ENTRY_PRICE_RANGE', 'Search by Price Range');
