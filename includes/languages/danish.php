@@ -508,7 +508,7 @@ define('CAPTION_UPCOMING_PRODUCTS','These items will be in stock soon');
 define('SUMMARY_TABLE_UPCOMING_PRODUCTS','table contains a list of products that are due to be in stock soon and the dates the items are expected');
 
 // meta tags special defines
- efine('META_TAG_PRODUCTS_PRICE_IS_FREE_TEXT','Det er gratis!');
+define('META_TAG_PRODUCTS_PRICE_IS_FREE_TEXT','Det er gratis!');
 
 // customer login
 define('TEXT_SHOWCASE_ONLY','Kontakt os');
