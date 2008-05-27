@@ -108,7 +108,7 @@ define('BOX_REVIEWS_TEXT_OF_5_STARS', '%s ud af 5 stjerner!');
 // shopping_cart box text in sideboxes/shopping_cart.php
 define('BOX_HEADING_SHOPPING_CART', 'Indk&oslash;bskurv');
 define('BOX_SHOPPING_CART_EMPTY', 'Din kurv er tom.');
-define('BOX_SHOPPING_CART_DIVIDER', 'ea.-&nbsp;');
+define('BOX_SHOPPING_CART_DIVIDER', '&nbsp;stk.-&nbsp;');
 
 // order_history box text in sideboxes/order_history.php
 define('BOX_HEADING_CUSTOMER_ORDERS', 'Hurtig genbestilling');

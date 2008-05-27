@@ -28,7 +28,7 @@ define('MY_ACCOUNT_PASSWORD', 'Skift mit kodeord p&aring; kontoen.');
 define('MY_ORDERS_TITLE', 'Mine ordrer');
 define('MY_ORDERS_VIEW', 'Vis mine ordrer.');
 
-define('EMAIL_NOTIFICATIONS_TITLE', 'Email Notifications');
-define('EMAIL_NOTIFICATIONS_NEWSLETTERS', 'Tilmeld eller ameld nyhedsbreve.');
-define('EMAIL_NOTIFICATIONS_PRODUCTS', 'View or change my product notification list.');
+define('EMAIL_NOTIFICATIONS_TITLE', 'Email notificeringer');
+define('EMAIL_NOTIFICATIONS_NEWSLETTERS', 'Tilmeld eller frameld nyhedsbreve.');
+define('EMAIL_NOTIFICATIONS_PRODUCTS', 'Vis eller ændre min produkt notificerings liste.');
 ?>
